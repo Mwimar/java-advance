@@ -18,11 +18,10 @@ public class QuestionService {
     }
 
     public void displayQuestions() {
-        // // System.out.println(questions[1].getAnswer().toLowerCase());
-        // String answer = (questions[1] != null && questions[1].getAnswer() != null ) ?
-        // questions[1].getAnswer().toLowerCase() : null;
-        // System.out.println(answer);
-        System.out.println(questions[0].getQuestion());
+        for (Question q : questions) {
+            
+            System.out.println(q.getQuestion());
+        }
     }
 
 }

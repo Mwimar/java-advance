@@ -1,9 +1,9 @@
 public class Question {
-    int id;
-    String question;
-    String opt1;
-    String opt2;
-    String opt3;
-    String opt4;
-    
+   private int id;
+   private String question;
+   private String opt1;
+   private String opt2;
+   private String opt3;
+   private String opt4;
+   private String answer;
 }

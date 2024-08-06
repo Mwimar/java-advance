@@ -62,9 +62,11 @@ public void setOpt4(String opt4) {
 public String getAnswer() {
     return answer;
 }
+
 public void setAnswer(String answer) {
     this.answer = answer;
 }
+
    
 
 }

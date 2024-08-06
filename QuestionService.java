@@ -20,7 +20,7 @@ public class QuestionService {
     public void displayQuestions() {
         for (Question q : questions) {
             
-            System.out.println(q.getQuestion());
+            System.out.println(q.toString());
         }
     }
 

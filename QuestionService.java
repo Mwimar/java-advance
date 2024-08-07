@@ -44,10 +44,13 @@ public class QuestionService {
         int score = 0;
         for (int i = 0; i < questions.length; i++) {
             Question que = questions[i];
-            String answer = que.getAnswer();
-
-            
+            String actualAnswer = que.getAnswer();
+            String userAnswer = selection[i];
+            if (actualAnswer.equals(userAnswer)) {
+                score++;
+            }
         }
+        System.out.println("Your Score is:"+ score);            
     }
 
 }

@@ -1,3 +1,6 @@
+
+import java.util.Scanner;
+
 public class QuestionService {
 
     Question[] questions = new Question[5];
@@ -26,6 +29,7 @@ public class QuestionService {
             System.out.println(q.getOpt2());
             System.out.println(q.getOpt3());
             System.out.println(q.getOpt4());
+            Scanner sc = new Scanner(System.in);
         }
     }
 
